@@ -64,6 +64,7 @@ async def on_ready():
 
 @bot.command()
 async def chat(ctx, *, prompt: str):
+    chunk = 15
     # コマンドの後に続く文字列を取得
     if int(ctx.channel.id) == CHATBOT_CH_ID:  # 特定のチャンネルIDを設定
         response = await ctx.send('Processing...')
@@ -78,7 +79,7 @@ async def chat(ctx, *, prompt: str):
                 break
             text += char
             # 一時的な更新をスキップ（必要ならこの部分を調整）
-            if len(text) % 15 == 0:
+            if len(text) % chunk == 0:
                 await response.edit(content=text)
 
         # 全体のテキストが完了した後に最終的にメッセージを更新
