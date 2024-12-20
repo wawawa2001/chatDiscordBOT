@@ -9,9 +9,6 @@
 - 応答が進行中にDiscordメッセージを動的に更新。
 
 ## 動作デモ
-![スクリーンショット 2024-12-20 172521](https://github.com/user-attachments/assets/adaedb07-3fae-4cf7-bf32-df1d5e545df4)
-
-![スクリーンショット 2024-12-20 172449](https://github.com/user-attachments/assets/b8873c6a-c0b0-4f30-9ad7-cc909afa35a7)
 
 https://github.com/user-attachments/assets/fd6861e7-5377-4d42-a01e-8405685e3db6
 
