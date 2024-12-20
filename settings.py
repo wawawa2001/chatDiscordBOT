@@ -1,0 +1,9 @@
+HOSTNAME = "localhost"
+USERNAME = ""
+PASSWORD = ""
+DBNAME = ""
+TOKEN = ""
+LLM_HOST = "127.0.0.1"
+LLM_PORT = 11434
+LLM_MODEL = "gemma:2b"
+CHATBOT_CH_ID = 
